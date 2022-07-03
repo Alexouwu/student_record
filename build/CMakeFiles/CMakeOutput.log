@@ -1,0 +1,625 @@
+The system is: Linux - 5.4.0-97-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-11 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/linuxbrew/.linuxbrew/bin/g++-11 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_216d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_216d5.dir/build.make CMakeFiles/cmTC_216d5.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_216d5.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-11    -o CMakeFiles/cmTC_216d5.dir/testCCompiler.c.o   -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_216d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_216d5.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-11      -rdynamic CMakeFiles/cmTC_216d5.dir/testCCompiler.c.o  -o cmTC_216d5 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8f46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8f46.dir/build.make CMakeFiles/cmTC_b8f46.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-11    -o CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b8f46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8f46.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-11     -v -rdynamic CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o  -o cmTC_b8f46 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-11
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,d --program-suffix=-11 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 11.3.0_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-libphobos --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Homebrew GCC 11.3.0_2) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b8f46' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b8f46.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUlfeVM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/11 -o cmTC_b8f46 /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../.. -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/lib/gcc/11 -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b8f46' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b8f46.'
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b8f46/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b8f46.dir/build.make CMakeFiles/cmTC_b8f46.dir/build]
+  ignore line: [make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/gcc-11    -o CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b8f46]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8f46.dir/link.txt --verbose=1]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/gcc-11     -v -rdynamic CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o  -o cmTC_b8f46 ]
+  ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/specs]
+  ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-11]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,d --program-suffix=-11 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 11.3.0_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-libphobos --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Homebrew GCC 11.3.0_2) ]
+  ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b8f46' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b8f46.']
+  link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUlfeVM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/11 -o cmTC_b8f46 /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../.. -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/lib/gcc/11 -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtn.o]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUlfeVM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/gcc/11] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b8f46] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crt1.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crti.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtbegin.o] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../..]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/home/linuxbrew/.linuxbrew/lib/gcc/11] ==> dir [/home/linuxbrew/.linuxbrew/lib/gcc/11]
+    arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+    arg [CMakeFiles/cmTC_b8f46.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtend.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtn.o] ==> ignore
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc/x86_64-pc-linux-gnu/11]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib/gcc/11] ==> [/home/linuxbrew/.linuxbrew/lib/gcc/11]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc/x86_64-pc-linux-gnu/11;/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc;/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11;/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/lib/gcc/11;/home/linuxbrew/.linuxbrew/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5d1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5d1e.dir/build.make CMakeFiles/cmTC_f5d1e.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5d1e.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-11   -std=c11 -o CMakeFiles/cmTC_f5d1e.dir/feature_tests.c.o   -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f5d1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d1e.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-11      -rdynamic CMakeFiles/cmTC_f5d1e.dir/feature_tests.c.o  -o cmTC_f5d1e 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04621/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04621.dir/build.make CMakeFiles/cmTC_04621.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04621.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-11   -std=c99 -o CMakeFiles/cmTC_04621.dir/feature_tests.c.o   -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_04621
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04621.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-11      -rdynamic CMakeFiles/cmTC_04621.dir/feature_tests.c.o  -o cmTC_04621 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26e72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26e72.dir/build.make CMakeFiles/cmTC_26e72.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26e72.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/gcc-11   -std=c90 -o CMakeFiles/cmTC_26e72.dir/feature_tests.c.o   -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_26e72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26e72.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/gcc-11      -rdynamic CMakeFiles/cmTC_26e72.dir/feature_tests.c.o  -o cmTC_26e72 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3b2a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3b2a.dir/build.make CMakeFiles/cmTC_f3b2a.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3b2a.dir/testCXXCompiler.cxx.o
+/home/linuxbrew/.linuxbrew/bin/g++-11     -o CMakeFiles/cmTC_f3b2a.dir/testCXXCompiler.cxx.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f3b2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3b2a.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/g++-11       -rdynamic CMakeFiles/cmTC_f3b2a.dir/testCXXCompiler.cxx.o  -o cmTC_f3b2a 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7313b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7313b.dir/build.make CMakeFiles/cmTC_7313b.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o
+/home/linuxbrew/.linuxbrew/bin/g++-11     -o CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7313b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7313b.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/g++-11      -v -rdynamic CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7313b 
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-11
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,d --program-suffix=-11 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 11.3.0_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-libphobos --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Homebrew GCC 11.3.0_2) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7313b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7313b.'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6Zr8wB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/11 -o cmTC_7313b /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../.. -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/lib/gcc/11 -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -rpath /home/linuxbrew/.linuxbrew/lib -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7313b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7313b.'
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7313b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7313b.dir/build.make CMakeFiles/cmTC_7313b.dir/build]
+  ignore line: [make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/g++-11     -o CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7313b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7313b.dir/link.txt --verbose=1]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/g++-11      -v -rdynamic CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7313b ]
+  ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/specs]
+  ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-11]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/11 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,d --program-suffix=-11 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 11.3.0_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-libphobos --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Homebrew GCC 11.3.0_2) ]
+  ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7313b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7313b.']
+  link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6Zr8wB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/11 -o cmTC_7313b /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../.. -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/lib/gcc/11 -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -rpath /home/linuxbrew/.linuxbrew/lib -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtn.o]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../libexec/gcc/x86_64-pc-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6Zr8wB.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/gcc/11] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7313b] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crt1.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crti.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtbegin.o] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../..]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/home/linuxbrew/.linuxbrew/lib/gcc/11] ==> dir [/home/linuxbrew/.linuxbrew/lib/gcc/11]
+    arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+    arg [CMakeFiles/cmTC_7313b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtend.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/crtn.o] ==> ignore
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc/x86_64-pc-linux-gnu/11]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/bin/../lib/gcc/11/gcc/x86_64-pc-linux-gnu/11/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib/gcc/11] ==> [/home/linuxbrew/.linuxbrew/lib/gcc/11]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc/x86_64-pc-linux-gnu/11;/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11/gcc;/home/linuxbrew/.linuxbrew/Cellar/gcc/11.3.0_2/lib/gcc/11;/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/lib/gcc/11;/home/linuxbrew/.linuxbrew/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82831/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82831.dir/build.make CMakeFiles/cmTC_82831.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_82831.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/g++-11    -std=c++1z -o CMakeFiles/cmTC_82831.dir/feature_tests.cxx.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_82831
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82831.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/g++-11       -rdynamic CMakeFiles/cmTC_82831.dir/feature_tests.cxx.o  -o cmTC_82831 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30dff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30dff.dir/build.make CMakeFiles/cmTC_30dff.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30dff.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/g++-11    -std=c++14 -o CMakeFiles/cmTC_30dff.dir/feature_tests.cxx.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_30dff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30dff.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/g++-11       -rdynamic CMakeFiles/cmTC_30dff.dir/feature_tests.cxx.o  -o cmTC_30dff 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_930e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_930e5.dir/build.make CMakeFiles/cmTC_930e5.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_930e5.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/g++-11    -std=c++11 -o CMakeFiles/cmTC_930e5.dir/feature_tests.cxx.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_930e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_930e5.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/g++-11       -rdynamic CMakeFiles/cmTC_930e5.dir/feature_tests.cxx.o  -o cmTC_930e5 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9805/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9805.dir/build.make CMakeFiles/cmTC_c9805.dir/build
+make[1]: Entering directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9805.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/g++-11    -std=c++98 -o CMakeFiles/cmTC_c9805.dir/feature_tests.cxx.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c9805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9805.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/g++-11       -rdynamic CMakeFiles/cmTC_c9805.dir/feature_tests.cxx.o  -o cmTC_c9805 
+make[1]: Leaving directory '/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

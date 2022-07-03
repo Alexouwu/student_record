@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/media/alejandrogarcia/DataDrive/workspace/student_record/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-11    -g   -o CMakeFiles/student_record.dir/src/main.cpp.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp",
+  "file": "/media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp"
+},
+{
+  "directory": "/media/alejandrogarcia/DataDrive/workspace/student_record/build",
+  "command": "/home/linuxbrew/.linuxbrew/bin/g++-11    -g   -o CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp",
+  "file": "/media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp"
+}
+]
