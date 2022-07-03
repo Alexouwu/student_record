@@ -1,6 +1,4 @@
 #include "../lib/STUDENT/STUDENT.h"
-// #include "./lib/STUDENT/STUDENT.cpp"
-
 #include <iostream>
 
 int main(){
