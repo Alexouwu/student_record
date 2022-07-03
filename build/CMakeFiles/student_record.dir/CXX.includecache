@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/media/alejandrogarcia/DataDrive/workspace/student_record/lib/COURSE/COURSE.cpp
+COURSE.h
+/media/alejandrogarcia/DataDrive/workspace/student_record/lib/COURSE/COURSE.h
+
+/media/alejandrogarcia/DataDrive/workspace/student_record/lib/COURSE/COURSE.h
+iostream
+-
+string
+-
+
+/media/alejandrogarcia/DataDrive/workspace/student_record/lib/GRADE/GRADE.cpp
+GRADE.h
+/media/alejandrogarcia/DataDrive/workspace/student_record/lib/GRADE/GRADE.h
+
+/media/alejandrogarcia/DataDrive/workspace/student_record/lib/GRADE/GRADE.h
+iostream
+-
+string
+-
+
 /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp
 STUDENT.h
 /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.h
@@ -17,8 +37,10 @@ string.h
 -
 
 /media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp
+../lib/COURSE/COURSE.h
+/media/alejandrogarcia/DataDrive/workspace/student_record/lib/COURSE/COURSE.h
+../lib/GRADE/GRADE.h
+/media/alejandrogarcia/DataDrive/workspace/student_record/lib/GRADE/GRADE.h
 ../lib/STUDENT/STUDENT.h
 /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.h
-iostream
--
 

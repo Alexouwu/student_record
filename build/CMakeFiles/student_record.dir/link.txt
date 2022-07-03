@@ -1,1 +1,1 @@
-/home/linuxbrew/.linuxbrew/bin/g++-11  -g  -rdynamic CMakeFiles/student_record.dir/src/main.cpp.o CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o  -o student_record 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/student_record.dir/src/main.cpp.o CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o  -o student_record 

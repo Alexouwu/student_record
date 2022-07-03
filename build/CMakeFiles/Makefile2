@@ -738,7 +738,7 @@ clean: CMakeFiles/NightlySubmit.dir/clean
 CMakeFiles/student_record.dir/all:
 	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/depend
 	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles --progress-num=1,2,3 "Built target student_record"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target student_record"
 .PHONY : CMakeFiles/student_record.dir/all
 
 # Include target in all.
@@ -748,7 +748,7 @@ all: CMakeFiles/student_record.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/student_record.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/student_record.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles 0
 .PHONY : CMakeFiles/student_record.dir/rule

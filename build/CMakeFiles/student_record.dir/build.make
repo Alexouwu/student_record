@@ -60,15 +60,15 @@ include CMakeFiles/student_record.dir/flags.make
 CMakeFiles/student_record.dir/src/main.cpp.o: CMakeFiles/student_record.dir/flags.make
 CMakeFiles/student_record.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student_record.dir/src/main.cpp.o"
-	/home/linuxbrew/.linuxbrew/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student_record.dir/src/main.cpp.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student_record.dir/src/main.cpp.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp
 
 CMakeFiles/student_record.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_record.dir/src/main.cpp.i"
-	/home/linuxbrew/.linuxbrew/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp > CMakeFiles/student_record.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp > CMakeFiles/student_record.dir/src/main.cpp.i
 
 CMakeFiles/student_record.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_record.dir/src/main.cpp.s"
-	/home/linuxbrew/.linuxbrew/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp -o CMakeFiles/student_record.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp -o CMakeFiles/student_record.dir/src/main.cpp.s
 
 CMakeFiles/student_record.dir/src/main.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/student_record.dir/src/main.cpp.o.provides.build: CMakeFiles/student_
 CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o: CMakeFiles/student_record.dir/flags.make
 CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o: ../lib/STUDENT/STUDENT.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o"
-	/home/linuxbrew/.linuxbrew/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp
 
 CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.i"
-	/home/linuxbrew/.linuxbrew/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp > CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp > CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.i
 
 CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.s"
-	/home/linuxbrew/.linuxbrew/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp -o CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp -o CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.s
 
 CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o.requires:
 
@@ -105,19 +105,71 @@ CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o.provides: CMakeFiles/stu
 CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o.provides.build: CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o
 
 
+CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o: CMakeFiles/student_record.dir/flags.make
+CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o: ../lib/GRADE/GRADE.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/lib/GRADE/GRADE.cpp
+
+CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/alejandrogarcia/DataDrive/workspace/student_record/lib/GRADE/GRADE.cpp > CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.i
+
+CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/alejandrogarcia/DataDrive/workspace/student_record/lib/GRADE/GRADE.cpp -o CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.s
+
+CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o.requires:
+
+.PHONY : CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o.requires
+
+CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o.provides: CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o.requires
+	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o.provides.build
+.PHONY : CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o.provides
+
+CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o.provides.build: CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o
+
+
+CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o: CMakeFiles/student_record.dir/flags.make
+CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o: ../lib/COURSE/COURSE.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o -c /media/alejandrogarcia/DataDrive/workspace/student_record/lib/COURSE/COURSE.cpp
+
+CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/alejandrogarcia/DataDrive/workspace/student_record/lib/COURSE/COURSE.cpp > CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.i
+
+CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/alejandrogarcia/DataDrive/workspace/student_record/lib/COURSE/COURSE.cpp -o CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.s
+
+CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o.requires:
+
+.PHONY : CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o.requires
+
+CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o.provides: CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o.requires
+	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o.provides.build
+.PHONY : CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o.provides
+
+CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o.provides.build: CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o
+
+
 # Object files for target student_record
 student_record_OBJECTS = \
 "CMakeFiles/student_record.dir/src/main.cpp.o" \
-"CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o"
+"CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o" \
+"CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o" \
+"CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o"
 
 # External object files for target student_record
 student_record_EXTERNAL_OBJECTS =
 
 student_record: CMakeFiles/student_record.dir/src/main.cpp.o
 student_record: CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o
+student_record: CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o
+student_record: CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o
 student_record: CMakeFiles/student_record.dir/build.make
 student_record: CMakeFiles/student_record.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable student_record"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable student_record"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/student_record.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +179,8 @@ CMakeFiles/student_record.dir/build: student_record
 
 CMakeFiles/student_record.dir/requires: CMakeFiles/student_record.dir/src/main.cpp.o.requires
 CMakeFiles/student_record.dir/requires: CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o.requires
+CMakeFiles/student_record.dir/requires: CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o.requires
+CMakeFiles/student_record.dir/requires: CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o.requires
 
 .PHONY : CMakeFiles/student_record.dir/requires
 

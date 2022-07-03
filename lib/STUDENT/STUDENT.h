@@ -13,5 +13,3 @@ public:
     int getID();
     std::string getName();
 };
-
-

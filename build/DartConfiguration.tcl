@@ -14,7 +14,7 @@ CostDataFile:
 Site: alejandrogarcia
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-g++-11
+BuildName: Linux-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -67,13 +67,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
-Compiler: /home/linuxbrew/.linuxbrew/bin/g++-11
-CompilerVersion: 11.3.0
+Compiler: /usr/bin/c++
+CompilerVersion: 7.5.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

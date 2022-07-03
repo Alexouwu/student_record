@@ -520,6 +520,60 @@ ExperimentalBuild/fast:
 	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
+lib/COURSE/COURSE.o: lib/COURSE/COURSE.cpp.o
+
+.PHONY : lib/COURSE/COURSE.o
+
+# target to build an object file
+lib/COURSE/COURSE.cpp.o:
+	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o
+.PHONY : lib/COURSE/COURSE.cpp.o
+
+lib/COURSE/COURSE.i: lib/COURSE/COURSE.cpp.i
+
+.PHONY : lib/COURSE/COURSE.i
+
+# target to preprocess a source file
+lib/COURSE/COURSE.cpp.i:
+	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.i
+.PHONY : lib/COURSE/COURSE.cpp.i
+
+lib/COURSE/COURSE.s: lib/COURSE/COURSE.cpp.s
+
+.PHONY : lib/COURSE/COURSE.s
+
+# target to generate assembly for a file
+lib/COURSE/COURSE.cpp.s:
+	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.s
+.PHONY : lib/COURSE/COURSE.cpp.s
+
+lib/GRADE/GRADE.o: lib/GRADE/GRADE.cpp.o
+
+.PHONY : lib/GRADE/GRADE.o
+
+# target to build an object file
+lib/GRADE/GRADE.cpp.o:
+	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o
+.PHONY : lib/GRADE/GRADE.cpp.o
+
+lib/GRADE/GRADE.i: lib/GRADE/GRADE.cpp.i
+
+.PHONY : lib/GRADE/GRADE.i
+
+# target to preprocess a source file
+lib/GRADE/GRADE.cpp.i:
+	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.i
+.PHONY : lib/GRADE/GRADE.cpp.i
+
+lib/GRADE/GRADE.s: lib/GRADE/GRADE.cpp.s
+
+.PHONY : lib/GRADE/GRADE.s
+
+# target to generate assembly for a file
+lib/GRADE/GRADE.cpp.s:
+	$(MAKE) -f CMakeFiles/student_record.dir/build.make CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.s
+.PHONY : lib/GRADE/GRADE.cpp.s
+
 lib/STUDENT/STUDENT.o: lib/STUDENT/STUDENT.cpp.o
 
 .PHONY : lib/STUDENT/STUDENT.o
@@ -614,6 +668,12 @@ help:
 	@echo "... ContinuousTest"
 	@echo "... ContinuousUpdate"
 	@echo "... ExperimentalBuild"
+	@echo "... lib/COURSE/COURSE.o"
+	@echo "... lib/COURSE/COURSE.i"
+	@echo "... lib/COURSE/COURSE.s"
+	@echo "... lib/GRADE/GRADE.o"
+	@echo "... lib/GRADE/GRADE.i"
+	@echo "... lib/GRADE/GRADE.s"
 	@echo "... lib/STUDENT/STUDENT.o"
 	@echo "... lib/STUDENT/STUDENT.i"
 	@echo "... lib/STUDENT/STUDENT.s"

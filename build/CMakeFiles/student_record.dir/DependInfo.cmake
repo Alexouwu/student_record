@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/media/alejandrogarcia/DataDrive/workspace/student_record/lib/COURSE/COURSE.cpp" "/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/student_record.dir/lib/COURSE/COURSE.cpp.o"
+  "/media/alejandrogarcia/DataDrive/workspace/student_record/lib/GRADE/GRADE.cpp" "/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/student_record.dir/lib/GRADE/GRADE.cpp.o"
   "/media/alejandrogarcia/DataDrive/workspace/student_record/lib/STUDENT/STUDENT.cpp" "/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/student_record.dir/lib/STUDENT/STUDENT.cpp.o"
   "/media/alejandrogarcia/DataDrive/workspace/student_record/src/main.cpp" "/media/alejandrogarcia/DataDrive/workspace/student_record/build/CMakeFiles/student_record.dir/src/main.cpp.o"
   )
